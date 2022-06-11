@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+
   }
 
   html {
     scroll-behavior: smooth; 
+    background-color: rgb(41, 41, 41);
   }
 
   body {
@@ -11,15 +13,24 @@
     padding: 0;
     display: flex;
     font-family: 'Roboto Mono', monospace;
-    background-color: #000;
-    color: yellow;
+    color: rgb(255, 213, 0);
     flex-direction: column;
   }
 
+  h1 {
+    font-size: 3em;
+    margin: 20px 0px;
+  }
+
+  .section-title {
+    color: yellow;
+  }
+
   .container {
+    background-color: #000;
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid red;
+    border: 1px solid rgb(37, 37, 37);
   }
 
   .main-container {
@@ -27,8 +38,16 @@
     flex-wrap: wrap;
   }
   
-  .section {
-    width: 50%;
+  .left-column {
+    padding: 25px;
+    width: 40%;
+    background-color: rgb(31, 31, 31);
+  }
+
+  .right-column {
+    padding: 25px;
+    width: 60%;
+    background-color: #000;
   }
 
   .nav-list {
@@ -44,13 +63,13 @@
     transition: .3s;
   }
 
-  .nav-item a {
-    color: #829985;
+  a {
+    color: yellow;
     text-decoration: none;  
     transition: color 0.5s;
   }
-  .nav-item a:hover {
-    color: #4d2323;
+  a:hover {
+    color: #4e4f02;
   }
 
 
