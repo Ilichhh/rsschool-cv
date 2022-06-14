@@ -98,10 +98,13 @@
                     <h2 class="section-title">Code Example</h2>
                     <pre>
                         <code>
-                            function goodbyWorld() {
-                                console.log('Goodby, World!');
-                            }
-                            goodbyWorld();
+    function beHappy(salary, taxes, beingInRussia) {
+        let netSalary = salary - taxes;
+        if (netSalary >= 5000 && !beingInRussia) {
+            return true;
+        }
+        return false;
+    }
                         </code>
                     </pre>
                 </section>
