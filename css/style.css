@@ -1,29 +1,25 @@
 * {
     box-sizing: border-box;
-
   }
 
   html {
     scroll-behavior: smooth; 
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(104, 104, 104);
   }
 
   body {
-    margin: 0;
-    padding: 0;
-    display: flex;
     font-family: 'Roboto Mono', monospace;
-    color: rgb(255, 213, 0);
-    flex-direction: column;
+    color: rgb(14, 165, 0);
   }
 
   h1 {
     font-size: 3em;
-    margin: 20px 0px;
+    margin: 0px;
   }
 
   pre {
     background-color: rgb(42, 42, 42);
+    margin-left: -100px;
   }
 
   .section-title {
@@ -34,7 +30,7 @@
     background-color: #000;
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid rgb(37, 37, 37);
+    border: 1px solid rgb(31, 31, 31);
   }
 
   .main-container {
@@ -44,17 +40,18 @@
   
   .left-column {
     padding: 25px;
-    width: 40%;
+    width: 38%;
     background-color: rgb(31, 31, 31);
   }
 
   .right-column {
     padding: 25px;
-    width: 60%;
+    width: 62%;
     background-color: #000;
   }
 
   .nav-list {
+    padding: 0 20px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -65,34 +62,41 @@
     padding: 0 20px;
     line-height: 50px;
     transition: .3s;
+    color: yellow;
+  }
+
+  .nav-link:hover {
+    color: rgb(14, 165, 0);
   }
 
   a {
-    color: yellow;
+    color: rgb(14, 165, 0);
     text-decoration: none;  
     transition: color 0.5s;
   }
   a:hover {
-    color: #4e4f02;
+    color: yellow;
   }
-
 
   .avatar {
     height: 200px;
   }
 
+  .projects-image {
+    height: 150px;
+  }
 
   .footer-container {
+    padding: 0 20px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
   }
 
   .footer-item {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
     list-style: none;
-    padding: 0 20px;
     line-height: 50px;
     transition: .3s;
   }
