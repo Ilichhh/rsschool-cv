@@ -3,7 +3,6 @@
 
 ## Contacts
 * Location: Moscow, Russia
-* Phone: +79032459192
 * E-mail: shakurov.ia@gmail.com
 * GitHub: [ilichhh](https://github.com/Ilichhh)
 * Telegram: [ilichhh](https://t.me/ilichhh)
@@ -12,11 +11,12 @@
 The most ambitious and promising switcher in the world. Web 3.0 fan. DAO maximalist.
 
 ## Skills
-* HTML, CSS
+* HTML
+* CSS
 * JavaScript
+* Git/GitHub
 * Linux
 * Photoshop
-* Blockchain
 
 ## Code Example
 ```
@@ -28,9 +28,9 @@ goodbyWorld();
 
 ## Education
 * University: MARHI, Architect
-* Cources:
+* Courses:
+    * [JS/FE PRE-SCHOOL](https://app.rs.school/certificate/ph6a2ogv)
     * CS50 lectures
-    * Code-basics: HTML, CSS, JS
     * Udemy: Linux Mastery
     * Udemy: Blockchain A-Z
 
@@ -39,5 +39,4 @@ goodbyWorld();
 
 ## Languages
 * Russian - Native
-* English - A2+
-* Spanish - A1
+* English - B1
